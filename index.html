@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 </head>
 
 <body>
@@ -16,21 +17,43 @@
         <div class="container">
             <a href="index.html" class="nav-link">Start Bootstrap</a>
             <nav class="menu">
-                    <ul>
-                        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
-                        <li><a href="#about" class="nav-link">About</a></li>
-                    </ul>
+                <ul>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                </ul>
             </nav>
         </div>
     </header>
     <section class="bg-primary">
         <section class="container">
-            <img src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/profile.png" alt="">
+            <img src="images/profile.png" alt="">
             <h1>Start Bootstrap</h1>
-            <h2>Web Developer - Graphic Artist - User Experience Designer</h2>
+            <h3>Web Developer - Graphic Artist - User Experience Designer</h3>
         </section>
     </section>
-    <section class="portfolio" id="portfolio"></section>
+    <section class="wrapper" id="portfolio">
+        <h2>Portfolio</h2>
+
+        <div class="portfolio-item">
+            <a href="">
+                <img src="images/cabin.png" alt="">
+                <div class="pi-overlay"><i class="fa fa-link"></i></div>
+            </a>
+        </div>
+        <div class="portfolio-item">
+            <a href="">
+                <img src="images/cake.png" alt="">
+                <div class="pi-overlay"><i class="fa fa-link"></i></div>
+            </a>
+        </div>
+        <div class="portfolio-item">
+            <a href="">
+                <img src="images/circus.png" alt="">
+                <div class="pi-overlay"><i class="fa fa-link"></i></div>
+            </a>
+        </div>
+    
+    </section>
     <section class="about bg-primary" id="about"></section>
     <footer class="bg-secondary"></footer>
 </body>

@@ -22,11 +22,18 @@ body {
     padding: 0 30px;
 }
 
-section{
-    padding: 100px 0;   
+.wrapper {
+    display: inline-block;
+    text-align: center;
+    font-size: 0;
 }
 
-footer{
+section,
+section.wrapper {
+    padding: 100px 0;
+}
+
+footer {
     padding: 80px 0 0;
 }
 
@@ -39,6 +46,7 @@ header {
     right: 0;
     font-weight: 700;
     text-transform: uppercase;
+    z-index: 10;
 }
 
 header::after {
@@ -51,7 +59,7 @@ header a {
     font-size: 32px;
 }
 
-header + * {
+header+* {
     margin-top: 100px;
 }
 
@@ -84,7 +92,7 @@ header + * {
     width: 100%;
 }
 
-.menu .nav-link:hover{
+.menu .nav-link:hover {
     color: #18bc9c;
 }
 
@@ -100,4 +108,49 @@ header + * {
 
 h1 {
     text-transform: uppercase;
+}
+
+.portfolio-item {
+    position: relative;
+    display: inline-block;
+    width: 33%;
+    z-index: 2;
+}
+
+.portfolio-item a img {
+    width: 100%;
+    height: auto;
+}
+
+.pi-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #18bc9c;
+    opacity: 0;
+}
+
+.portfolio-item:focus .pi-overlay,
+.portfolio-item:hover .pi-overlay {
+    opacity: .8;
+}
+
+.pi-overlay>.fa {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    margin: auto;
+    color: white;
+    font-size: 32px;
+}
+
+.portfolio-item:focus .pi-overlay .fa,
+.portfolio-item:hover .pi-overlay .fa {
+    opacity: 1;
 }
