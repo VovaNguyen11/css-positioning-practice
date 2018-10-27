@@ -8,8 +8,10 @@
     <title>Freelance - Start Bootstrap Theme</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+        crossorigin="anonymous">
 </head>
 
 <body>
@@ -24,38 +26,124 @@
             </nav>
         </div>
     </header>
-    <section class="bg-primary">
-        <section class="container">
+    <section class="bg-primary promo">
+        <div class="container">
             <img src="images/profile.png" alt="">
-            <h1>Start Bootstrap</h1>
+            <h1 class="text-uppercase">Start Bootstrap</h1>
+            <hr class="star-light">
             <h3>Web Developer - Graphic Artist - User Experience Designer</h3>
-        </section>
+        </div>
     </section>
-    <section class="wrapper" id="portfolio">
-        <h2>Portfolio</h2>
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="text-secondary text-uppercase">Portfolio</h2>
+            <hr class="star-dark">
+            <div class="portfolio-item">
+                <a href="">
+                    <img src="images/cabin.png" alt="">
+                    <div class="pi-overlay"><i class="fa fa-link"></i></div>
+                </a>
+            </div>
+            <div class="portfolio-item">
+                <a href="">
+                    <img src="images/cake.png" alt="">
+                    <div class="pi-overlay"><i class="fa fa-link"></i></div>
+                </a>
+            </div>
+            <div class="portfolio-item">
+                <a href="">
+                    <img src="images/circus.png" alt="">
+                    <div class="pi-overlay"><i class="fa fa-link"></i></div>
+                </a>
+            </div>
+            <div class="portfolio-item">
+                <a href="">
+                    <img src="images/game.png" alt="">
+                    <div class="pi-overlay"><i class="fa fa-link"></i></div>
+                </a>
+            </div>
+            <div class="portfolio-item">
+                <a href="">
+                    <img src="images/safe.png" alt="">
+                    <div class="pi-overlay"><i class="fa fa-link"></i></div>
+                </a>
+            </div>
+            <div class="portfolio-item">
+                <a href="">
+                    <img src="images/submarine.png" alt="">
+                    <div class="pi-overlay"><i class="fa fa-link"></i></div>
+                </a>
+            </div>
+        </div>
 
-        <div class="portfolio-item">
-            <a href="">
-                <img src="images/cabin.png" alt="">
-                <div class="pi-overlay"><i class="fa fa-link"></i></div>
-            </a>
-        </div>
-        <div class="portfolio-item">
-            <a href="">
-                <img src="images/cake.png" alt="">
-                <div class="pi-overlay"><i class="fa fa-link"></i></div>
-            </a>
-        </div>
-        <div class="portfolio-item">
-            <a href="">
-                <img src="images/circus.png" alt="">
-                <div class="pi-overlay"><i class="fa fa-link"></i></div>
-            </a>
-        </div>
-    
     </section>
-    <section class="about bg-primary" id="about"></section>
-    <footer class="bg-secondary"></footer>
+    <section class="about bg-primary" id="about">
+        <div class="container">
+            <h2 class="text-uppercase">About</h2>
+            <hr class="star-light">
+
+            <div class="lead-wrapper">
+                <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes
+                    the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets
+                    for easy customization.</p>
+                <p class="lead">Whether you're a student looking to showcase your work a professional looking to
+                    attract clients, or a graphic artist looking to share your projects, this template is the perfect
+                    starting point! </p>
+            </div>
+            <a class="download-button" href="#">
+                <i class="fas fa-download mr-2"></i>
+                Download Now!
+            </a>
+        </div>
+    </section>
+    <footer class="footer bg-secondary">
+        <div class="container">
+            
+                <div class="location">
+                    <h4 class="text-uppercase">Location</h4>
+                    <span class="lead full-name">2215 John Daniel Drive</span>
+                    <span class="lead">Clark, MO 65243</span>
+                </div>
+                <div class="social">
+                    <h4 class="text-uppercase">Around the Web</h4>
+                    <ul>
+                        <li>
+                            <a class="nav-link" href="#">
+                                <i class="fab fa-fw fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">
+                                <i class="fab fa-fw fa-google-plus-g"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">
+                                <i class="fab fa-fw fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">
+                                <i class="fab fa-fw fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">
+                                <i class="fab fa-fw fa-dribbble"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="freelancer-info">
+                    <h4 class="text-uppercase">About Freelancer</h4>
+                    <p class="lead">
+                        Freelance is a free to use, open source Bootstrap theme created by <a class="nav-link" href="http://startbootstrap.com">Start
+                            Bootstrap</a>.
+                    </p>
+                </div>
+            
+        </div>
+    </footer>
 </body>
 
 </html>
