@@ -246,18 +246,19 @@ hr.star-dark:after {
     border-radius: 4px;
 }
 
-.download-button:hover{
+.download-button:hover {
     border-color: white;
     background-color: #fff;
     color: #2c3e50;
     transition: .4s;
 }
 
-.footer{
+.footer {
     margin: 0 auto;
 }
-.footer .container{
-    padding: 100px 0;
+
+.footer .container {
+    padding: 120px 0;
     width: 80%;
     position: relative;
 }
@@ -266,21 +267,21 @@ hr.star-dark:after {
 .footer .location,
 .footer .freelancer-info {
     display: inline-block;
-    width: 30%;
+    width: 33%;
     position: absolute;
 }
 
-.footer .location{
+.footer .location {
     top: 0;
     left: 0;
 }
 
-.footer .social{
+.footer .social {
     top: 0;
     left: 33%;
 }
 
-.footer .freelancer-info{
+.footer .freelancer-info {
     top: 0;
     right: 0;
 }
@@ -306,15 +307,24 @@ hr.star-dark:after {
     border: 2px solid white;
     border-radius: 50%;
     padding: 8px 12px;
+    margin: 0 5px 0 0;
 }
 
-.footer .social a:hover{
+.footer .social a:hover {
     border-color: white;
     background-color: #fff;
     color: #2c3e50;
     transition: .4s;
 }
 
-.footer .freelancer-info p{
+.footer .freelancer-info p {
     margin: 0;
+}
+
+.copyright {
+    padding: 25px 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    background-color: #1a252f;
 }
