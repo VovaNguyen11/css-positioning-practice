@@ -321,6 +321,15 @@ hr.star-dark:after {
     margin: 0;
 }
 
+.footer .freelancer-info a {
+    color: #18bc9c;
+}
+
+.footer .freelancer-info a:hover {
+    color: #128f76;
+    text-decoration: underline;
+}
+
 .copyright {
     padding: 25px 0;
     font-size: 16px;
