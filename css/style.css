@@ -254,8 +254,12 @@ hr.star-dark:after {
 }
 
 .footer{
-    padding: 80px 100px;
     margin: 0 auto;
+}
+.footer .container{
+    padding: 100px 0;
+    width: 80%;
+    position: relative;
 }
 
 .footer .social,
@@ -263,6 +267,22 @@ hr.star-dark:after {
 .footer .freelancer-info {
     display: inline-block;
     width: 30%;
+    position: absolute;
+}
+
+.footer .location{
+    top: 0;
+    left: 0;
+}
+
+.footer .social{
+    top: 0;
+    left: 33%;
+}
+
+.footer .freelancer-info{
+    top: 0;
+    right: 0;
 }
 
 .footer .location .full-name {
@@ -297,8 +317,4 @@ hr.star-dark:after {
 
 .footer .freelancer-info p{
     margin: 0;
-}
-
-.footer .social h4:nth-child(1){
-    margin-bottom: 20px;
 }
